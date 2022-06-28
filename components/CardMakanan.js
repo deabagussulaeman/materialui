@@ -34,10 +34,12 @@ export default function Home(props) {
                     </Typography>
                 </CardContent>
             </CardActionArea>
-            <CardActions>
+            
+            <CardActions className="bgblue">
                 <Button size="small" color="primary">
                     Share
                 </Button>
+                
                 <Button size="small" color="primary">
                     Learn More
                 </Button>
